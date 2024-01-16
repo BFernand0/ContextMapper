@@ -1,0 +1,15 @@
+ContextMap MainContextMap {
+  BoundedContext "Customer" {
+    Aggregate "Customer" {
+      Entity "Customer"
+    }
+  }
+
+  BoundedContext "Order" {
+    Aggregate "Order" {
+      Entity "Order"
+    }
+  }
+
+  // Agrega más definiciones según tu arquitectura
+}
